@@ -1,0 +1,9 @@
+# /home/j5joker/.config/systemd/user/python_api.service
+[Unit]
+Description=Usrs and Group Script
+
+[Service]
+ExecStart=/usr/bin/python3 /home/j5joker/cpsc222/CPSC222/HTTPCode.py
+
+[Install]
+WantedBy=default.target
